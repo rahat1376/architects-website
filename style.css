@@ -184,7 +184,16 @@ main{
 }
 
 /* Footer */
-
+.foot-bg{
+    background-color: #FFF4E7;
+    height: 100px;
+    width: 1440px;
+    margin: 50px 240px;
+}
+.foot-dec{
+    text-align: center;
+    padding-top: 40px;
+}
 /*Responsive Mobile*/
 
 @media screen and (max-width:576px){
