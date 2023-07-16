@@ -16,16 +16,16 @@
 .common-clr{
     color: #727272;
 }
+.common-title{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
 /*nav style*/
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.nav-title{
-    font-weight: 700;
-    font-size: 2.8rem;
 }
 header{
     padding: 50px 240px;
@@ -92,17 +92,39 @@ main{
     color: #727272;
     font-weight: 500;
 }
-.of-our{
-    color: #131313;
-    font-weight: 700;
-}
+
 .features{
     color: #FF900E;
     font-weight: 700;
 }
 
+/* Section 3 */
 
-
+.facts-card{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+}
+.facts-card .card-head{
+    color: #424242;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 5px;
+}
+.facts-card .card-dec{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 5px;
+}
+.facts-card .icon{
+    margin-top: 10px;
+}
 
 
 /*Responsive Mobile*/
